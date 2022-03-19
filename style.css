@@ -1,0 +1,77 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("https://media.istockphoto.com/photos/raws-of-numbers-picture-id182378840?k=20&m=182378840&s=612x612&w=0&h=V8AbLwmxPFM_94g-Xu8-jhjIS5R_acUhoV99Zih_4D4=");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.pagesubtitle {
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 16px;
+}
+
+.page-logo {
+  width: 200px;
+  background-color: #000000;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
+
+input {
+  margin: 4px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 12px;
+  padding: 4px 8px;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.resultado {
+  color: #000000;
+  text-align: center;
+  margin-top: 16px;
+  animation: fadeIn 6s infinite;
+}
